@@ -1,0 +1,31 @@
+﻿.div_articleWrapper {width:1180px;margin:16px auto;}
+.div_articleIntro {height:84px;margin-bottom:4px;padding:42px 84px 20px 24px;}
+    .div_articleIntro p {font-size:12px;margin-top:8px}
+    .div_articleIntro p.title {font-size:14px;margin-bottom:8px;color:#333;}
+.div_authorInfo p{font-size:12px;margin-top:8px;color:#333;}
+    .div_authorInfo img {width:70px;height:70px;background-color:#000;margin:8px 16px 0 0}
+    .div_authorInfo p.userName {font-size:14px;color:#313131;}
+    .div_authorInfo a {color:#313131;}
+.div_articleHead,.div_articleContent,.div_articleFooter {background-color:#fff;}
+.div_content {width:800px;margin:0 auto;padding:10px;}
+.div_articleFooter .like{margin:0 536px 40px 536px}
+#btnLike {width:154px;height:154px;background-image:url('../style/style/image/likeIcon.jpg');border:0;}
+#btnFavor {width:42px;height:40px;background-image: url('../style/style/image/favorIcon.jpg');border:0;}
+.div_footerBar {height:50px;background-color:#cccccc;padding:16px 30px 16px 24px}
+    .div_footerBar input {margin-right:20px;}
+    .div_footerBar .popularity {margin-left:44px;}
+.div_articleFooter .div_authorInfo {margin-left:28px}
+.div_aboutAuthor {height:158px;padding-top:24px;margin-bottom:4px}
+.div_otherWorks img {margin-right:30px;width:164px;height:108px;background-color:#000;float:left}
+.div_makeComment {height:234px;padding:36px 30px 16px 28px;margin-bottom:4px;background-color:#fff;}
+.btnComment {width:150px; height:50px;margin-bottom:16px; background-color:#666;border:none;font-size:14px;font-family:微软雅黑;color:#eee;}
+.div_allComment {height:650px;background-color:#fff;}
+.div_userComment {padding:28px 0 40px 28px;border-bottom:4px solid #eee;width: 1152px;}
+    .div_userComment div.headpic img {width:70px;height:70px;margin-right:24px;}
+    .div_userComment p.userName,p.comment {font-size:14px}
+    .div_userComment div.comment {width:1040px;}
+span.red {color:red;}
+div.left
+{
+    height:97px;
+    width:468px;}

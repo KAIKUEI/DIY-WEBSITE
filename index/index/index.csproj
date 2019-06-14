@@ -1,0 +1,1488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE761A21-1AC7-41E2-923E-3455FFD5CD61}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>index</RootNamespace>
+    <AssemblyName>index</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="20070919010738-99-50x50.jpg" />
+    <Content Include="20070919010738-99-80x80.jpg" />
+    <Content Include="About.aspx" />
+    <Content Include="account.png" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="activity1.aspx" />
+    <Content Include="activity2.aspx" />
+    <Content Include="adminlogin.aspx" />
+    <Content Include="arrow-down.png" />
+    <Content Include="arrows.png" />
+    <Content Include="article-detail.aspx" />
+    <Content Include="backadmin.aspx" />
+    <Content Include="banner.jpg" />
+    <Content Include="banner2.jpg" />
+    <Content Include="body_bg.jpg" />
+    <Content Include="bs_pagination-master\index.html" />
+    <Content Include="bs_pagination-master\jquery.bs_pagination.bs2.css" />
+    <Content Include="bs_pagination-master\jquery.bs_pagination.bs2.min.css" />
+    <Content Include="bs_pagination-master\jquery.bs_pagination.css" />
+    <Content Include="bs_pagination-master\jquery.bs_pagination.js" />
+    <Content Include="bs_pagination-master\jquery.bs_pagination.min.css" />
+    <Content Include="bs_pagination-master\jquery.bs_pagination.min.js" />
+    <Content Include="bs_pagination-master\localization\el.js" />
+    <Content Include="bs_pagination-master\localization\el.min.js" />
+    <Content Include="bs_pagination-master\localization\en.js" />
+    <Content Include="bs_pagination-master\localization\en.min.js" />
+    <Content Include="bs_pagination-master\localization\ru.js" />
+    <Content Include="bs_pagination-master\localization\ru.min.js" />
+    <Content Include="bs_pagination-master\screenshots\sample1.png" />
+    <Content Include="bs_pagination-master\www.jq22.com.txt" />
+    <Content Include="bullets.png" />
+    <Content Include="cart.png" />
+    <Content Include="cat-sep.gif" />
+    <Content Include="catmenu.png" />
+    <Content Include="checkout.png" />
+    <Content Include="circle.png" />
+    <Content Include="compare.png" />
+    <Content Include="controlnav.png" />
+    <Content Include="control\css\zyUpload.css" />
+    <Content Include="control\images\add_img.png" />
+    <Content Include="control\images\bg.png" />
+    <Content Include="control\images\delete_blue.png" />
+    <Content Include="control\images\delete_white.png" />
+    <Content Include="control\images\fileType\file.png" />
+    <Content Include="control\images\fileType\rar.png" />
+    <Content Include="control\images\fileType\txt.png" />
+    <Content Include="control\images\fileType\zip.png" />
+    <Content Include="control\images\success.png" />
+    <Content Include="control\js\jquery-1.7.2.js" />
+    <Content Include="control\js\zyUpload.js" />
+    <Content Include="core\jq22.js" />
+    <Content Include="core\zyFile.js" />
+    <Content Include="css\16sucai.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\beforeafter-content.css" />
+    <Content Include="css\beforeafter-settings.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bui-min.css" />
+    <Content Include="css\chocolat.css" />
+    <Content Include="css\css.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\dpl-min.css" />
+    <Content Include="css\form.css" />
+    <Content Include="css\fwslider.css" />
+    <Content Include="css\global.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\jplayer.blue.monday.css" />
+    <Content Include="css\jplayer.blue.monday.video.play.hover.png" />
+    <Content Include="css\jplayer.blue.monday.video.play.png" />
+    <Content Include="css\jplayer.blue.monday1.jpg" />
+    <Content Include="css\jq22.css" />
+    <Content Include="css\LoginStyle.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\main-min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\megamenu.css" />
+    <Content Include="css\nivo-slider.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\pbar-ani.gif" />
+    <Content Include="css\PBLstyle.css" />
+    <Content Include="css\picstyles.css" />
+    <Content Include="css\popuo-box.css" />
+    <Content Include="css\registerStyle.css" />
+    <Content Include="css\reveal.css" />
+    <Content Include="css\semantic.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style1.css" />
+    <Content Include="css\style2.css" />
+    <Content Include="css\styleactivity.css" />
+    <Content Include="css\styleuse.css" />
+    <Content Include="css\userCenter.css" />
+    <Content Include="css\userInformation.css" />
+    <Content Include="css\zoome-min.css" />
+    <Content Include="css\zyComment.css" />
+    <Content Include="diy food.aspx" />
+    <Content Include="editor\attach.htm" />
+    <Content Include="editor\base.css" />
+    <Content Include="editor\editor.js" />
+    <Content Include="editor\img.htm" />
+    <Content Include="editor\link.htm" />
+    <Content Include="editor\table.htm" />
+    <Content Include="editor\upload.asp" />
+    <Content Include="editor\UpLoadClass.asp" />
+    <Content Include="Edit\editor.htm" />
+    <Content Include="Edit\editor\attach.htm" />
+    <Content Include="Edit\editor\base.css" />
+    <Content Include="Edit\editor\editor.js" />
+    <Content Include="Edit\editor\img.htm" />
+    <Content Include="Edit\editor\link.htm" />
+    <Content Include="Edit\editor\table.htm" />
+    <Content Include="Edit\editor\upload.asp" />
+    <Content Include="Edit\editor\UpLoadClass.asp" />
+    <Content Include="Edit\face\001.gif" />
+    <Content Include="Edit\face\002.gif" />
+    <Content Include="Edit\face\003.gif" />
+    <Content Include="Edit\face\004.gif" />
+    <Content Include="Edit\face\005.gif" />
+    <Content Include="Edit\face\006.gif" />
+    <Content Include="Edit\face\007.gif" />
+    <Content Include="Edit\face\008.gif" />
+    <Content Include="Edit\face\009.gif" />
+    <Content Include="Edit\face\010.gif" />
+    <Content Include="Edit\face\011.gif" />
+    <Content Include="Edit\face\012.gif" />
+    <Content Include="Edit\face\013.gif" />
+    <Content Include="Edit\face\014.gif" />
+    <Content Include="Edit\face\015.gif" />
+    <Content Include="Edit\face\016.gif" />
+    <Content Include="Edit\face\017.gif" />
+    <Content Include="Edit\face\018.gif" />
+    <Content Include="Edit\face\019.gif" />
+    <Content Include="Edit\face\020.gif" />
+    <Content Include="Edit\face\021.gif" />
+    <Content Include="Edit\face\022.gif" />
+    <Content Include="Edit\face\023.gif" />
+    <Content Include="Edit\face\024.gif" />
+    <Content Include="Edit\face\025.gif" />
+    <Content Include="Edit\face\026.gif" />
+    <Content Include="Edit\face\027.gif" />
+    <Content Include="Edit\face\028.gif" />
+    <Content Include="Edit\face\029.gif" />
+    <Content Include="Edit\face\030.gif" />
+    <Content Include="Edit\face\031.gif" />
+    <Content Include="Edit\face\032.gif" />
+    <Content Include="Edit\face\033.gif" />
+    <Content Include="Edit\face\034.gif" />
+    <Content Include="Edit\face\035.gif" />
+    <Content Include="Edit\face\036.gif" />
+    <Content Include="Edit\face\037.gif" />
+    <Content Include="Edit\face\038.gif" />
+    <Content Include="Edit\face\039.gif" />
+    <Content Include="Edit\face\040.gif" />
+    <Content Include="Edit\images\arrow_down.gif" />
+    <Content Include="Edit\images\arrow_up.gif" />
+    <Content Include="Edit\images\bg.gif" />
+    <Content Include="Edit\images\blue_sline.gif" />
+    <Content Include="Edit\images\box_vsplit.gif" />
+    <Content Include="Edit\images\common.gif" />
+    <Content Include="Edit\images\del_btn.gif" />
+    <Content Include="Edit\images\dilog_bt_cancel.gif" />
+    <Content Include="Edit\images\dilog_bt_ok.gif" />
+    <Content Include="Edit\images\editor\attach.gif" />
+    <Content Include="Edit\images\editor\attach_over.gif" />
+    <Content Include="Edit\images\editor\blank.gif" />
+    <Content Include="Edit\images\editor\bold.gif" />
+    <Content Include="Edit\images\editor\bold_over.gif" />
+    <Content Include="Edit\images\editor\copy.gif" />
+    <Content Include="Edit\images\editor\copy_over.gif" />
+    <Content Include="Edit\images\editor\cut.gif" />
+    <Content Include="Edit\images\editor\cut_over.gif" />
+    <Content Include="Edit\images\editor\editor_foot.gif" />
+    <Content Include="Edit\images\editor\face.gif" />
+    <Content Include="Edit\images\editor\face_bg.gif" />
+    <Content Include="Edit\images\editor\face_over.gif" />
+    <Content Include="Edit\images\editor\forecolor.gif" />
+    <Content Include="Edit\images\editor\forecolor_over.gif" />
+    <Content Include="Edit\images\editor\guage.gif" />
+    <Content Include="Edit\images\editor\hilitecolor.gif" />
+    <Content Include="Edit\images\editor\hilitecolor_over.gif" />
+    <Content Include="Edit\images\editor\iask.gif" />
+    <Content Include="Edit\images\editor\iask_over.gif" />
+    <Content Include="Edit\images\editor\img.gif" />
+    <Content Include="Edit\images\editor\img_over.gif" />
+    <Content Include="Edit\images\editor\indent.gif" />
+    <Content Include="Edit\images\editor\indent_over.gif" />
+    <Content Include="Edit\images\editor\inserthorizontalrule.gif" />
+    <Content Include="Edit\images\editor\inserthorizontalrule_over.gif" />
+    <Content Include="Edit\images\editor\insertorderedlist.gif" />
+    <Content Include="Edit\images\editor\insertorderedlist_over.gif" />
+    <Content Include="Edit\images\editor\insertunorderedlist.gif" />
+    <Content Include="Edit\images\editor\insertunorderedlist_over.gif" />
+    <Content Include="Edit\images\editor\italic.gif" />
+    <Content Include="Edit\images\editor\italic_over.gif" />
+    <Content Include="Edit\images\editor\justifycenter.gif" />
+    <Content Include="Edit\images\editor\justifycenter_over.gif" />
+    <Content Include="Edit\images\editor\justifyformat.gif" />
+    <Content Include="Edit\images\editor\justifyformat_bg.gif" />
+    <Content Include="Edit\images\editor\justifyformat_over.gif" />
+    <Content Include="Edit\images\editor\justifyfull.gif" />
+    <Content Include="Edit\images\editor\justifyfull_over.gif" />
+    <Content Include="Edit\images\editor\justifyleft.gif" />
+    <Content Include="Edit\images\editor\justifyleft_over.gif" />
+    <Content Include="Edit\images\editor\justifyright.gif" />
+    <Content Include="Edit\images\editor\justifyright_over.gif" />
+    <Content Include="Edit\images\editor\link.gif" />
+    <Content Include="Edit\images\editor\link_over.gif" />
+    <Content Include="Edit\images\editor\menu_bg.gif" />
+    <Content Include="Edit\images\editor\menu_foot.gif" />
+    <Content Include="Edit\images\editor\menu_title.gif" />
+    <Content Include="Edit\images\editor\outdent.gif" />
+    <Content Include="Edit\images\editor\outdent_over.gif" />
+    <Content Include="Edit\images\editor\ParaFormatting.gif" />
+    <Content Include="Edit\images\editor\ParaFormatting_over.gif" />
+    <Content Include="Edit\images\editor\paste.gif" />
+    <Content Include="Edit\images\editor\paste_over.gif" />
+    <Content Include="Edit\images\editor\redo.gif" />
+    <Content Include="Edit\images\editor\redo_over.gif" />
+    <Content Include="Edit\images\editor\rsave.gif" />
+    <Content Include="Edit\images\editor\table.gif" />
+    <Content Include="Edit\images\editor\table_over.gif" />
+    <Content Include="Edit\images\editor\textarea.gif" />
+    <Content Include="Edit\images\editor\textarea_over.gif" />
+    <Content Include="Edit\images\editor\title_bg.gif" />
+    <Content Include="Edit\images\editor\toolbar_bg.gif" />
+    <Content Include="Edit\images\editor\underline.gif" />
+    <Content Include="Edit\images\editor\underline_over.gif" />
+    <Content Include="Edit\images\editor\undo.gif" />
+    <Content Include="Edit\images\editor\undo_over.gif" />
+    <Content Include="Edit\images\editor\view.gif" />
+    <Content Include="Edit\images\editor\view_over.gif" />
+    <Content Include="Edit\images\guage.gif" />
+    <Content Include="Edit\images\smb_btn_bg.gif" />
+    <Content Include="Edit\images\srch_btn.gif" />
+    <Content Include="Edit\images\tmpl_btn_bg.gif" />
+    <Content Include="Edit\images\update_btn1.gif" />
+    <Content Include="Edit\images\update_btn2.gif" />
+    <Content Include="facebook.png" />
+    <Content Include="face\001.gif" />
+    <Content Include="face\002.gif" />
+    <Content Include="face\003.gif" />
+    <Content Include="face\004.gif" />
+    <Content Include="face\005.gif" />
+    <Content Include="face\006.gif" />
+    <Content Include="face\007.gif" />
+    <Content Include="face\008.gif" />
+    <Content Include="face\009.gif" />
+    <Content Include="face\010.gif" />
+    <Content Include="face\011.gif" />
+    <Content Include="face\012.gif" />
+    <Content Include="face\013.gif" />
+    <Content Include="face\014.gif" />
+    <Content Include="face\015.gif" />
+    <Content Include="face\016.gif" />
+    <Content Include="face\017.gif" />
+    <Content Include="face\018.gif" />
+    <Content Include="face\019.gif" />
+    <Content Include="face\020.gif" />
+    <Content Include="face\021.gif" />
+    <Content Include="face\022.gif" />
+    <Content Include="face\023.gif" />
+    <Content Include="face\024.gif" />
+    <Content Include="face\025.gif" />
+    <Content Include="face\026.gif" />
+    <Content Include="face\027.gif" />
+    <Content Include="face\028.gif" />
+    <Content Include="face\029.gif" />
+    <Content Include="face\030.gif" />
+    <Content Include="face\031.gif" />
+    <Content Include="face\032.gif" />
+    <Content Include="face\033.gif" />
+    <Content Include="face\034.gif" />
+    <Content Include="face\035.gif" />
+    <Content Include="face\036.gif" />
+    <Content Include="face\037.gif" />
+    <Content Include="face\038.gif" />
+    <Content Include="face\039.gif" />
+    <Content Include="face\040.gif" />
+    <Content Include="featured_bg.gif" />
+    <Content Include="footer_h3.png" />
+    <Content Include="home.png" />
+    <Content Include="icons24x24.png" />
+    <Content Include="imac_1-228x228.jpg" />
+    <Content Include="imac_1-50x50.jpg" />
+    <Content Include="imac_1-80x80.jpg" />
+    <Content Include="imac_2-74x74.jpg" />
+    <Content Include="imac_3-74x74.jpg" />
+    <Content Include="images\001.jpg" />
+    <Content Include="images\002.jpg" />
+    <Content Include="images\003.jpg" />
+    <Content Include="images\01.jpg" />
+    <Content Include="images\02.jpg" />
+    <Content Include="images\03.jpg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\20070919010738-99-50x50.jpg" />
+    <Content Include="images\20070919010738-99-80x80.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\a01.jpg" />
+    <Content Include="images\a02.jpg" />
+    <Content Include="images\a03.jpg" />
+    <Content Include="images\account.png" />
+    <Content Include="images\anim\bolt.gif" />
+    <Content Include="images\anim\flower_1_white_bg_30fps.gif" />
+    <Content Include="images\arrow-down.png" />
+    <Content Include="images\arrows.png" />
+    <Content Include="images\arrow_down.gif" />
+    <Content Include="images\arrow_up.gif" />
+    <Content Include="images\avatar.png" />
+    <Content Include="images\background\abstract\g_09.jpg" />
+    <Content Include="images\background\pattern\basic\pattern_02b.png" />
+    <Content Include="images\background\pattern\basic\pattern_10.png" />
+    <Content Include="images\background\pattern\basic\pattern_1b.png" />
+    <Content Include="images\background\pattern\damask\royal_dark.jpg" />
+    <Content Include="images\background\pattern\damask\simple_grey.png" />
+    <Content Include="images\background\pattern\damask\simple_med.png" />
+    <Content Include="images\background\pattern\royal_line\royal_green.jpg" />
+    <Content Include="images\background\pattern\royal_line\royal_greyline.jpg" />
+    <Content Include="images\background\pattern\royal_line\royal_greyline_2.jpg" />
+    <Content Include="images\background\pattern\royal_line\royal_wall.jpg" />
+    <Content Include="images\background\textures\w_07.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\banner2.jpg" />
+    <Content Include="images\banner_logo.png" />
+    <Content Include="images\beforeafter\10after.jpg" />
+    <Content Include="images\beforeafter\10before.jpg" />
+    <Content Include="images\beforeafter\1after.jpg" />
+    <Content Include="images\beforeafter\1before.jpg" />
+    <Content Include="images\beforeafter\2after.jpg" />
+    <Content Include="images\beforeafter\2before.jpg" />
+    <Content Include="images\beforeafter\3after.jpg" />
+    <Content Include="images\beforeafter\3before.jpg" />
+    <Content Include="images\beforeafter\4after.jpg" />
+    <Content Include="images\beforeafter\4before.jpg" />
+    <Content Include="images\beforeafter\5after.jpg" />
+    <Content Include="images\beforeafter\5before.jpg" />
+    <Content Include="images\beforeafter\6after.jpg" />
+    <Content Include="images\beforeafter\6before.jpg" />
+    <Content Include="images\beforeafter\7after.jpg" />
+    <Content Include="images\beforeafter\7before.jpg" />
+    <Content Include="images\beforeafter\8after.jpg" />
+    <Content Include="images\beforeafter\8before.jpg" />
+    <Content Include="images\beforeafter\9translate_details.jpg" />
+    <Content Include="images\beforeafter_2\1after.jpg" />
+    <Content Include="images\beforeafter_2\1before.jpg" />
+    <Content Include="images\beforeafter_2\2after.jpg" />
+    <Content Include="images\beforeafter_2\2before.jpg" />
+    <Content Include="images\beforeafter_2\3after.jpg" />
+    <Content Include="images\beforeafter_2\3before.jpg" />
+    <Content Include="images\beforeafter_2\4after.jpg" />
+    <Content Include="images\beforeafter_2\4before.jpg" />
+    <Content Include="images\beforeafter_3\1after.jpg" />
+    <Content Include="images\beforeafter_3\1before.jpg" />
+    <Content Include="images\beforeafter_3\2after.jpg" />
+    <Content Include="images\beforeafter_3\2before.jpg" />
+    <Content Include="images\beforeafter_3\3before.jpg" />
+    <Content Include="images\beforeafter_3\f_bg.gif" />
+    <Content Include="images\beforeafter_3\f_border.png" />
+    <Content Include="images\beforeafter_3\f_code.png" />
+    <Content Include="images\beforeafter_3\f_fish.png" />
+    <Content Include="images\beforeafter_3\f_green.png" />
+    <Content Include="images\beforeafter_3\f_points.png" />
+    <Content Include="images\bg-2x.png" />
+    <Content Include="images\bg-hl-2x.png" />
+    <Content Include="images\bg-item-2x.png" />
+    <Content Include="images\bg.gif" />
+    <Content Include="images\bg2.jpg" />
+    <Content Include="images\blog-post.jpg" />
+    <Content Include="images\blog-post1.jpg" />
+    <Content Include="images\blog-post3.jpg" />
+    <Content Include="images\blog-post4.jpg" />
+    <Content Include="images\blog-post5.jpg" />
+    <Content Include="images\blue_sline.gif" />
+    <Content Include="images\body_bg.jpg" />
+    <Content Include="images\box_vsplit.gif" />
+    <Content Include="images\br1.jpg" />
+    <Content Include="images\br2.jpg" />
+    <Content Include="images\br3.jpg" />
+    <Content Include="images\bullets.png" />
+    <Content Include="images\cart.png" />
+    <Content Include="images\cat-sep.gif" />
+    <Content Include="images\catmenu.png" />
+    <Content Include="images\checkout.png" />
+    <Content Include="images\circle.png" />
+    <Content Include="images\close.gif" />
+    <Content Include="images\close2.png" />
+    <Content Include="images\close2h.png" />
+    <Content Include="images\common.gif" />
+    <Content Include="images\compare.png" />
+    <Content Include="images\controlnav.png" />
+    <Content Include="images\cycle.png" />
+    <Content Include="images\del_btn.gif" />
+    <Content Include="images\dilog_bt_cancel.gif" />
+    <Content Include="images\dilog_bt_ok.gif" />
+    <Content Include="images\editor\attach.gif" />
+    <Content Include="images\editor\attach_over.gif" />
+    <Content Include="images\editor\blank.gif" />
+    <Content Include="images\editor\bold.gif" />
+    <Content Include="images\editor\bold_over.gif" />
+    <Content Include="images\editor\copy.gif" />
+    <Content Include="images\editor\copy_over.gif" />
+    <Content Include="images\editor\cut.gif" />
+    <Content Include="images\editor\cut_over.gif" />
+    <Content Include="images\editor\editor_foot.gif" />
+    <Content Include="images\editor\face.gif" />
+    <Content Include="images\editor\face_bg.gif" />
+    <Content Include="images\editor\face_over.gif" />
+    <Content Include="images\editor\forecolor.gif" />
+    <Content Include="images\editor\forecolor_over.gif" />
+    <Content Include="images\editor\guage.gif" />
+    <Content Include="images\editor\hilitecolor.gif" />
+    <Content Include="images\editor\hilitecolor_over.gif" />
+    <Content Include="images\editor\iask.gif" />
+    <Content Include="images\editor\iask_over.gif" />
+    <Content Include="images\editor\img.gif" />
+    <Content Include="images\editor\img_over.gif" />
+    <Content Include="images\editor\indent.gif" />
+    <Content Include="images\editor\indent_over.gif" />
+    <Content Include="images\editor\inserthorizontalrule.gif" />
+    <Content Include="images\editor\inserthorizontalrule_over.gif" />
+    <Content Include="images\editor\insertorderedlist.gif" />
+    <Content Include="images\editor\insertorderedlist_over.gif" />
+    <Content Include="images\editor\insertunorderedlist.gif" />
+    <Content Include="images\editor\insertunorderedlist_over.gif" />
+    <Content Include="images\editor\italic.gif" />
+    <Content Include="images\editor\italic_over.gif" />
+    <Content Include="images\editor\justifycenter.gif" />
+    <Content Include="images\editor\justifycenter_over.gif" />
+    <Content Include="images\editor\justifyformat.gif" />
+    <Content Include="images\editor\justifyformat_bg.gif" />
+    <Content Include="images\editor\justifyformat_over.gif" />
+    <Content Include="images\editor\justifyfull.gif" />
+    <Content Include="images\editor\justifyfull_over.gif" />
+    <Content Include="images\editor\justifyleft.gif" />
+    <Content Include="images\editor\justifyleft_over.gif" />
+    <Content Include="images\editor\justifyright.gif" />
+    <Content Include="images\editor\justifyright_over.gif" />
+    <Content Include="images\editor\link.gif" />
+    <Content Include="images\editor\link_over.gif" />
+    <Content Include="images\editor\menu_bg.gif" />
+    <Content Include="images\editor\menu_foot.gif" />
+    <Content Include="images\editor\menu_title.gif" />
+    <Content Include="images\editor\outdent.gif" />
+    <Content Include="images\editor\outdent_over.gif" />
+    <Content Include="images\editor\ParaFormatting.gif" />
+    <Content Include="images\editor\ParaFormatting_over.gif" />
+    <Content Include="images\editor\paste.gif" />
+    <Content Include="images\editor\paste_over.gif" />
+    <Content Include="images\editor\redo.gif" />
+    <Content Include="images\editor\redo_over.gif" />
+    <Content Include="images\editor\rsave.gif" />
+    <Content Include="images\editor\table.gif" />
+    <Content Include="images\editor\table_over.gif" />
+    <Content Include="images\editor\textarea.gif" />
+    <Content Include="images\editor\textarea_over.gif" />
+    <Content Include="images\editor\title_bg.gif" />
+    <Content Include="images\editor\toolbar_bg.gif" />
+    <Content Include="images\editor\underline.gif" />
+    <Content Include="images\editor\underline_over.gif" />
+    <Content Include="images\editor\undo.gif" />
+    <Content Include="images\editor\undo_over.gif" />
+    <Content Include="images\editor\view.gif" />
+    <Content Include="images\editor\view_over.gif" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\featured_bg.gif" />
+    <Content Include="images\first-icons.png" />
+    <Content Include="images\foot.png" />
+    <Content Include="images\footericn.png" />
+    <Content Include="images\footer_h3.png" />
+    <Content Include="images\guage.gif" />
+    <Content Include="images\hand.png" />
+    <Content Include="images\header-banner.jpg" />
+    <Content Include="images\home.png" />
+    <Content Include="images\hover-icon.png" />
+    <Content Include="images\i1.jpg" />
+    <Content Include="images\i2.jpg" />
+    <Content Include="images\i3.jpg" />
+    <Content Include="images\i4.jpg" />
+    <Content Include="images\icon-2x.png" />
+    <Content Include="images\icon.png" />
+    <Content Include="images\icons24x24.png" />
+    <Content Include="images\icon_1.png" />
+    <Content Include="images\icon_2.png" />
+    <Content Include="images\icon_ie6.png" />
+    <Content Include="images\icoons2.png" />
+    <Content Include="images\icoons3.png" />
+    <Content Include="images\imac_1-228x228.jpg" />
+    <Content Include="images\imac_1-50x50.jpg" />
+    <Content Include="images\imac_1-80x80.jpg" />
+    <Content Include="images\imac_2-74x74.jpg" />
+    <Content Include="images\imac_3-74x74.jpg" />
+    <Content Include="images\img1.jpg" />
+    <Content Include="images\img10.jpg" />
+    <Content Include="images\img11.jpg" />
+    <Content Include="images\img12.jpg" />
+    <Content Include="images\img13.jpg" />
+    <Content Include="images\img14.jpg" />
+    <Content Include="images\img30.jpg" />
+    <Content Include="images\img31.jpg" />
+    <Content Include="images\img32.jpg" />
+    <Content Include="images\img33.jpg" />
+    <Content Include="images\img4.jpg" />
+    <Content Include="images\img6.jpg" />
+    <Content Include="images\img7.jpg" />
+    <Content Include="images\img8.jpg" />
+    <Content Include="images\img9.jpg" />
+    <Content Include="images\index banner1.jpg" />
+    <Content Include="images\index banner2.jpg" />
+    <Content Include="images\Info.png" />
+    <Content Include="images\ion1.png" />
+    <Content Include="images\ion2.png" />
+    <Content Include="images\ion3.png" />
+    <Content Include="images\ipod_nano_1-50x50.jpg" />
+    <Content Include="images\ipod_nano_1-80x80.jpg" />
+    <Content Include="images\ipod_shuffle_1-80x80.jpg" />
+    <Content Include="images\ipod_touch_1-80x80.jpg" />
+    <Content Include="images\ipod_touch_4-80x80.jpg" />
+    <Content Include="images\jiazai.gif" />
+    <Content Include="images\last-banner.jpg" />
+    <Content Include="images\left-handing.png" />
+    <Content Include="images\left_hand.png" />
+    <Content Include="images\loader\loader_round_black.gif" />
+    <Content Include="images\loader\loader_round_blue.gif" />
+    <Content Include="images\loader\timer_black.png" />
+    <Content Include="images\loader\timer_white.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\login-logo.png" />
+    <Content Include="images\login.png" />
+    <Content Include="images\loginBanner.jpg" />
+    <Content Include="images\login_logo.png" />
+    <Content Include="images\logo-footer.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo_india.png" />
+    <Content Include="images\menu.png" />
+    <Content Include="images\menu_separator.png" />
+    <Content Include="images\moment_icn_address.png" />
+    <Content Include="images\moment_icn_info.png" />
+    <Content Include="images\moment_icn_pic.png" />
+    <Content Include="images\moment_icn_price.png" />
+    <Content Include="images\nav-icon.png" />
+    <Content Include="images\navigation\buttons.png" />
+    <Content Include="images\navigation\buttons_invert.png" />
+    <Content Include="images\navigation\drag_h_black.png" />
+    <Content Include="images\navigation\drag_h_white.png" />
+    <Content Include="images\navigation\nextprev.png" />
+    <Content Include="images\navigation\nextprev_invert.png" />
+    <Content Include="images\navigation\settingsanim_1.gif" />
+    <Content Include="images\navigation\toolbar_separator.png" />
+    <Content Include="images\navigation\toolbar_separator_2.png" />
+    <Content Include="images\nr1.png" />
+    <Content Include="images\password.png" />
+    <Content Include="images\pic.png" />
+    <Content Include="images\picshow_bg.png" />
+    <Content Include="images\port-pic.jpg" />
+    <Content Include="images\port-pic1.jpg" />
+    <Content Include="images\port-pic2.jpg" />
+    <Content Include="images\port-pic3.jpg" />
+    <Content Include="images\port-pic4.jpg" />
+    <Content Include="images\port-pic5.jpg" />
+    <Content Include="images\port-pic6.jpg" />
+    <Content Include="images\port-pic7.jpg" />
+    <Content Include="images\portpic.jpg" />
+    <Content Include="images\product_holder.jpg" />
+    <Content Include="images\project-icons.png" />
+    <Content Include="images\projects-bg.jpg" />
+    <Content Include="images\register.png" />
+    <Content Include="images\ribbon.png" />
+    <Content Include="images\right_hand.png" />
+    <Content Include="images\right_handing.png" />
+    <Content Include="images\round.jpg" />
+    <Content Include="images\round2.jpg" />
+    <Content Include="images\round3.jpg" />
+    <Content Include="images\round4.jpg" />
+    <Content Include="images\rss.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\second-banner.jpg" />
+    <Content Include="images\second-icons.png" />
+    <Content Include="images\services-bg.jpg" />
+    <Content Include="images\services-icons.png" />
+    <Content Include="images\single.jpg" />
+    <Content Include="images\sitelogo.png" />
+    <Content Include="images\slider_pattern.png" />
+    <Content Include="images\smb_btn_bg.gif" />
+    <Content Include="images\social-icons.png" />
+    <Content Include="images\srch_btn.gif" />
+    <Content Include="images\stars.png" />
+    <Content Include="images\tatoologo.png" />
+    <Content Include="images\timthumb-80x80.jpg" />
+    <Content Include="images\tmpl_btn_bg.gif" />
+    <Content Include="images\to-top1.png" />
+    <Content Include="images\tou.png" />
+    <Content Include="images\trid-banner.jpg" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\update_btn1.gif" />
+    <Content Include="images\update_btn2.gif" />
+    <Content Include="images\username.png" />
+    <Content Include="images\v01.jpg" />
+    <Content Include="images\v02.jpg" />
+    <Content Include="images\v03.jpg" />
+    <Content Include="images\v04.jpg" />
+    <Content Include="images\v1.jpg" />
+    <Content Include="images\v2.jpg" />
+    <Content Include="images\v3.jpg" />
+    <Content Include="images\v4.jpg" />
+    <Content Include="images\v5.jpg" />
+    <Content Include="images\v6.jpg" />
+    <Content Include="images\v7.jpg" />
+    <Content Include="images\v8.jpg" />
+    <Content Include="images\video.jpg" />
+    <Content Include="images\wine.png" />
+    <Content Include="images\wishlist.png" />
+    <Content Include="images\wish_list.png" />
+    <Content Include="images\yourlogo.png" />
+    <Content Include="image\220_aa29dcb8e8c42f07cdf26ec242cde048.jpg" />
+    <Content Include="image\activity.jpg" />
+    <Content Include="image\articleDetail.jpg" />
+    <Content Include="image\banner.jpg" />
+    <Content Include="image\banner1.jpg" />
+    <Content Include="image\banner3.jpg" />
+    <Content Include="image\bg.gif" />
+    <Content Include="image\demo.jpg" />
+    <Content Include="image\favorIcon.jpg" />
+    <Content Include="image\food.jpg" />
+    <Content Include="image\food01 .jpg" />
+    <Content Include="image\food02.jpg" />
+    <Content Include="image\food03.jpg" />
+    <Content Include="image\food04 .jpg" />
+    <Content Include="image\hua2.jpg" />
+    <Content Include="image\image-bg.jpg" />
+    <Content Include="image\index05.jpg" />
+    <Content Include="image\index_05.png" />
+    <Content Include="image\index_09.png" />
+    <Content Include="image\index_14.png" />
+    <Content Include="image\likeIcon.png" />
+    <Content Include="image\logo1.jpg" />
+    <Content Include="image\logo2.png" />
+    <Content Include="image\photo_10.png" />
+    <Content Include="image\popularityIcon.jpg" />
+    <Content Include="image\topic01.jpg" />
+    <Content Include="image\topic02.jpg" />
+    <Content Include="image\topic03.jpg" />
+    <Content Include="image\userCenter_03.png" />
+    <Content Include="image\userCenter_06.png" />
+    <Content Include="image\userImg.png" />
+    <Content Include="image\video1.png" />
+    <Content Include="image\videop.PNG" />
+    <Content Include="image\vidio.png" />
+    <Content Include="image\zuopin01.jpeg" />
+    <Content Include="image\zuopin02.jpeg" />
+    <Content Include="image\巧克力豆.jpg" />
+    <Content Include="image\星星饼.jpg" />
+    <Content Include="image\马卡龙.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="activity.aspx" />
+    <Content Include="index1.aspx" />
+    <Content Include="Info.png" />
+    <Content Include="ipod_nano_1-50x50.jpg" />
+    <Content Include="ipod_nano_1-80x80.jpg" />
+    <Content Include="ipod_shuffle_1-80x80.jpg" />
+    <Content Include="ipod_touch_1-80x80.jpg" />
+    <Content Include="ipod_touch_4-80x80.jpg" />
+    <Content Include="js\16sucai.js" />
+    <Content Include="js\blocksit.min.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\bui-min.js" />
+    <Content Include="js\c220.js" />
+    <Content Include="js\config-min.js" />
+    <Content Include="js\css3-mediaqueries.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\easing1.js" />
+    <Content Include="js\freshline\animadrag.js" />
+    <Content Include="js\freshline\jquery.freshline.beforeafter.js" />
+    <Content Include="js\freshline\jquery.freshline.demo.js" />
+    <Content Include="js\fwslider.js" />
+    <Content Include="js\html5.js" />
+    <Content Include="js\ihtml5.js" />
+    <Content Include="js\ijquery.easing.1.3.js" />
+    <Content Include="js\ijquery.min.js" />
+    <Content Include="js\jq22.js" />
+    <Content Include="js\jquery-1.4.4.min.js" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-1.7.3.min.js" />
+    <Content Include="js\jquery-1.8.1.min.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\jquery.chocolat.js" />
+    <Content Include="js\jquery.easydropdown.js" />
+    <Content Include="js\jquery.flexisel.js" />
+    <Content Include="js\jquery.jplayer.min.js" />
+    <Content Include="js\jquery.jscrollpane.min.js" />
+    <Content Include="js\jquery.magnific-popup.js" />
+    <Content Include="js\jquery.media.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.minactivity.js" />
+    <Content Include="js\jquery.minuse.js" />
+    <Content Include="js\jquery.nivo.slider.pack.js" />
+    <Content Include="js\jquery.reveal.js" />
+    <Content Include="js\jquery.transform.js" />
+    <Content Include="js\jquery1.min.js" />
+    <Content Include="js\jqueryv.js" />
+    <Content Include="js\js.js" />
+    <Content Include="js\login.js" />
+    <Content Include="js\main-min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\megamenu.js" />
+    <Content Include="js\modernizr.custom.min.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\move-top1.js" />
+    <Content Include="js\move-top2.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\pir-jquery.js" />
+    <Content Include="js\responsiveslides.min.js" />
+    <Content Include="js\s3Slider.js" />
+    <Content Include="js\slides.min.jquery.js" />
+    <Content Include="js\slides1.min.jquery.js" />
+    <Content Include="js\videojquery.js" />
+    <Content Include="js\vjquery.min.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="js\zoome-e.js" />
+    <Content Include="js\zyComment.js" />
+    <Content Include="loading.gif" />
+    <Content Include="login.aspx" />
+    <Content Include="login.png" />
+    <Content Include="loginBanner.jpg" />
+    <Content Include="login_logo.png" />
+    <Content Include="logo-footer.png" />
+    <Content Include="logo.png" />
+    <Content Include="media\01.m4v" />
+    <Content Include="media\02.m4v" />
+    <Content Include="media\DIY甜心巧克力.PNG" />
+    <Content Include="media\post1.jpg" />
+    <Content Include="media\poster.jpg" />
+    <Content Include="menu_separator.png" />
+    <Content Include="personal1.aspx" />
+    <Content Include="personal2.aspx" />
+    <Content Include="personal3.aspx" />
+    <Content Include="personal\asp.net\bin\LitJSON.dll" />
+    <Content Include="personal\asp.net\demo.aspx" />
+    <Content Include="personal\asp.net\README.txt" />
+    <Content Include="personal\asp\demo.asp" />
+    <Content Include="personal\asp\file_manager_json.asp" />
+    <Content Include="personal\asp\JSON_2.0.4.asp" />
+    <Content Include="personal\asp\UpLoad_Class.asp" />
+    <Content Include="personal\asp\upload_json.asp" />
+    <Content Include="personal\examples\auto-height.html" />
+    <Content Include="personal\examples\colorpicker.html" />
+    <Content Include="personal\examples\custom-plugin.html" />
+    <Content Include="personal\examples\custom-theme.html" />
+    <Content Include="personal\examples\default.html" />
+    <Content Include="personal\examples\dialog.html" />
+    <Content Include="personal\examples\dynamic-load.html" />
+    <Content Include="personal\examples\file-dialog.html" />
+    <Content Include="personal\examples\file-manager.html" />
+    <Content Include="personal\examples\filter-mode.html" />
+    <Content Include="personal\examples\image-dialog.html" />
+    <Content Include="personal\examples\index.css" />
+    <Content Include="personal\examples\index.html" />
+    <Content Include="personal\examples\jquery-ui.html" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\jquery-ui-1.9.2.custom.css" />
+    <Content Include="personal\examples\jquery-ui\css\smoothness\jquery-ui-1.9.2.custom.min.css" />
+    <Content Include="personal\examples\jquery-ui\js\jquery-ui-1.9.2.custom.js" />
+    <Content Include="personal\examples\jquery-ui\js\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="personal\examples\jquery.html" />
+    <Content Include="personal\examples\jquery.js" />
+    <Content Include="personal\examples\multi-image-dialog.html" />
+    <Content Include="personal\examples\multi-language.html" />
+    <Content Include="personal\examples\newline.html" />
+    <Content Include="personal\examples\node.html" />
+    <Content Include="personal\examples\paste-type.html" />
+    <Content Include="personal\examples\qqstyle.html" />
+    <Content Include="personal\examples\readonly.html" />
+    <Content Include="personal\examples\simple.html" />
+    <Content Include="personal\examples\uploadbutton.html" />
+    <Content Include="personal\examples\url-type.html" />
+    <Content Include="personal\examples\word-count.html" />
+    <Content Include="personal\jsp\lib\commons-fileupload-1.2.1.jar" />
+    <Content Include="personal\jsp\lib\commons-io-1.4.jar" />
+    <Content Include="personal\jsp\lib\json_simple-1.1.jar" />
+    <Content Include="personal\jsp\README.txt" />
+    <Content Include="personal\kindeditor-all-min.js" />
+    <Content Include="personal\kindeditor-all.js" />
+    <Content Include="personal\kindeditor-min.js" />
+    <Content Include="personal\kindeditor.js" />
+    <Content Include="personal\lang\ar.js" />
+    <Content Include="personal\lang\en.js" />
+    <Content Include="personal\lang\ko.js" />
+    <Content Include="personal\lang\zh_CN.js" />
+    <Content Include="personal\lang\zh_TW.js" />
+    <Content Include="personal\license.txt" />
+    <Content Include="personal\plugins\anchor\anchor.js" />
+    <Content Include="personal\plugins\autoheight\autoheight.js" />
+    <Content Include="personal\plugins\baidumap\baidumap.js" />
+    <Content Include="personal\plugins\baidumap\index.html" />
+    <Content Include="personal\plugins\baidumap\map.html" />
+    <Content Include="personal\plugins\clearhtml\clearhtml.js" />
+    <Content Include="personal\plugins\code\code.js" />
+    <Content Include="personal\plugins\code\prettify.css" />
+    <Content Include="personal\plugins\code\prettify.js" />
+    <Content Include="personal\plugins\emoticons\emoticons.js" />
+    <Content Include="personal\plugins\emoticons\images\0.gif" />
+    <Content Include="personal\plugins\emoticons\images\1.gif" />
+    <Content Include="personal\plugins\emoticons\images\10.gif" />
+    <Content Include="personal\plugins\emoticons\images\100.gif" />
+    <Content Include="personal\plugins\emoticons\images\101.gif" />
+    <Content Include="personal\plugins\emoticons\images\102.gif" />
+    <Content Include="personal\plugins\emoticons\images\103.gif" />
+    <Content Include="personal\plugins\emoticons\images\104.gif" />
+    <Content Include="personal\plugins\emoticons\images\105.gif" />
+    <Content Include="personal\plugins\emoticons\images\106.gif" />
+    <Content Include="personal\plugins\emoticons\images\107.gif" />
+    <Content Include="personal\plugins\emoticons\images\108.gif" />
+    <Content Include="personal\plugins\emoticons\images\109.gif" />
+    <Content Include="personal\plugins\emoticons\images\11.gif" />
+    <Content Include="personal\plugins\emoticons\images\110.gif" />
+    <Content Include="personal\plugins\emoticons\images\111.gif" />
+    <Content Include="personal\plugins\emoticons\images\112.gif" />
+    <Content Include="personal\plugins\emoticons\images\113.gif" />
+    <Content Include="personal\plugins\emoticons\images\114.gif" />
+    <Content Include="personal\plugins\emoticons\images\115.gif" />
+    <Content Include="personal\plugins\emoticons\images\116.gif" />
+    <Content Include="personal\plugins\emoticons\images\117.gif" />
+    <Content Include="personal\plugins\emoticons\images\118.gif" />
+    <Content Include="personal\plugins\emoticons\images\119.gif" />
+    <Content Include="personal\plugins\emoticons\images\12.gif" />
+    <Content Include="personal\plugins\emoticons\images\120.gif" />
+    <Content Include="personal\plugins\emoticons\images\121.gif" />
+    <Content Include="personal\plugins\emoticons\images\122.gif" />
+    <Content Include="personal\plugins\emoticons\images\123.gif" />
+    <Content Include="personal\plugins\emoticons\images\124.gif" />
+    <Content Include="personal\plugins\emoticons\images\125.gif" />
+    <Content Include="personal\plugins\emoticons\images\126.gif" />
+    <Content Include="personal\plugins\emoticons\images\127.gif" />
+    <Content Include="personal\plugins\emoticons\images\128.gif" />
+    <Content Include="personal\plugins\emoticons\images\129.gif" />
+    <Content Include="personal\plugins\emoticons\images\13.gif" />
+    <Content Include="personal\plugins\emoticons\images\130.gif" />
+    <Content Include="personal\plugins\emoticons\images\131.gif" />
+    <Content Include="personal\plugins\emoticons\images\132.gif" />
+    <Content Include="personal\plugins\emoticons\images\133.gif" />
+    <Content Include="personal\plugins\emoticons\images\134.gif" />
+    <Content Include="personal\plugins\emoticons\images\14.gif" />
+    <Content Include="personal\plugins\emoticons\images\15.gif" />
+    <Content Include="personal\plugins\emoticons\images\16.gif" />
+    <Content Include="personal\plugins\emoticons\images\17.gif" />
+    <Content Include="personal\plugins\emoticons\images\18.gif" />
+    <Content Include="personal\plugins\emoticons\images\19.gif" />
+    <Content Include="personal\plugins\emoticons\images\2.gif" />
+    <Content Include="personal\plugins\emoticons\images\20.gif" />
+    <Content Include="personal\plugins\emoticons\images\21.gif" />
+    <Content Include="personal\plugins\emoticons\images\22.gif" />
+    <Content Include="personal\plugins\emoticons\images\23.gif" />
+    <Content Include="personal\plugins\emoticons\images\24.gif" />
+    <Content Include="personal\plugins\emoticons\images\25.gif" />
+    <Content Include="personal\plugins\emoticons\images\26.gif" />
+    <Content Include="personal\plugins\emoticons\images\27.gif" />
+    <Content Include="personal\plugins\emoticons\images\28.gif" />
+    <Content Include="personal\plugins\emoticons\images\29.gif" />
+    <Content Include="personal\plugins\emoticons\images\3.gif" />
+    <Content Include="personal\plugins\emoticons\images\30.gif" />
+    <Content Include="personal\plugins\emoticons\images\31.gif" />
+    <Content Include="personal\plugins\emoticons\images\32.gif" />
+    <Content Include="personal\plugins\emoticons\images\33.gif" />
+    <Content Include="personal\plugins\emoticons\images\34.gif" />
+    <Content Include="personal\plugins\emoticons\images\35.gif" />
+    <Content Include="personal\plugins\emoticons\images\36.gif" />
+    <Content Include="personal\plugins\emoticons\images\37.gif" />
+    <Content Include="personal\plugins\emoticons\images\38.gif" />
+    <Content Include="personal\plugins\emoticons\images\39.gif" />
+    <Content Include="personal\plugins\emoticons\images\4.gif" />
+    <Content Include="personal\plugins\emoticons\images\40.gif" />
+    <Content Include="personal\plugins\emoticons\images\41.gif" />
+    <Content Include="personal\plugins\emoticons\images\42.gif" />
+    <Content Include="personal\plugins\emoticons\images\43.gif" />
+    <Content Include="personal\plugins\emoticons\images\44.gif" />
+    <Content Include="personal\plugins\emoticons\images\45.gif" />
+    <Content Include="personal\plugins\emoticons\images\46.gif" />
+    <Content Include="personal\plugins\emoticons\images\47.gif" />
+    <Content Include="personal\plugins\emoticons\images\48.gif" />
+    <Content Include="personal\plugins\emoticons\images\49.gif" />
+    <Content Include="personal\plugins\emoticons\images\5.gif" />
+    <Content Include="personal\plugins\emoticons\images\50.gif" />
+    <Content Include="personal\plugins\emoticons\images\51.gif" />
+    <Content Include="personal\plugins\emoticons\images\52.gif" />
+    <Content Include="personal\plugins\emoticons\images\53.gif" />
+    <Content Include="personal\plugins\emoticons\images\54.gif" />
+    <Content Include="personal\plugins\emoticons\images\55.gif" />
+    <Content Include="personal\plugins\emoticons\images\56.gif" />
+    <Content Include="personal\plugins\emoticons\images\57.gif" />
+    <Content Include="personal\plugins\emoticons\images\58.gif" />
+    <Content Include="personal\plugins\emoticons\images\59.gif" />
+    <Content Include="personal\plugins\emoticons\images\6.gif" />
+    <Content Include="personal\plugins\emoticons\images\60.gif" />
+    <Content Include="personal\plugins\emoticons\images\61.gif" />
+    <Content Include="personal\plugins\emoticons\images\62.gif" />
+    <Content Include="personal\plugins\emoticons\images\63.gif" />
+    <Content Include="personal\plugins\emoticons\images\64.gif" />
+    <Content Include="personal\plugins\emoticons\images\65.gif" />
+    <Content Include="personal\plugins\emoticons\images\66.gif" />
+    <Content Include="personal\plugins\emoticons\images\67.gif" />
+    <Content Include="personal\plugins\emoticons\images\68.gif" />
+    <Content Include="personal\plugins\emoticons\images\69.gif" />
+    <Content Include="personal\plugins\emoticons\images\7.gif" />
+    <Content Include="personal\plugins\emoticons\images\70.gif" />
+    <Content Include="personal\plugins\emoticons\images\71.gif" />
+    <Content Include="personal\plugins\emoticons\images\72.gif" />
+    <Content Include="personal\plugins\emoticons\images\73.gif" />
+    <Content Include="personal\plugins\emoticons\images\74.gif" />
+    <Content Include="personal\plugins\emoticons\images\75.gif" />
+    <Content Include="personal\plugins\emoticons\images\76.gif" />
+    <Content Include="personal\plugins\emoticons\images\77.gif" />
+    <Content Include="personal\plugins\emoticons\images\78.gif" />
+    <Content Include="personal\plugins\emoticons\images\79.gif" />
+    <Content Include="personal\plugins\emoticons\images\8.gif" />
+    <Content Include="personal\plugins\emoticons\images\80.gif" />
+    <Content Include="personal\plugins\emoticons\images\81.gif" />
+    <Content Include="personal\plugins\emoticons\images\82.gif" />
+    <Content Include="personal\plugins\emoticons\images\83.gif" />
+    <Content Include="personal\plugins\emoticons\images\84.gif" />
+    <Content Include="personal\plugins\emoticons\images\85.gif" />
+    <Content Include="personal\plugins\emoticons\images\86.gif" />
+    <Content Include="personal\plugins\emoticons\images\87.gif" />
+    <Content Include="personal\plugins\emoticons\images\88.gif" />
+    <Content Include="personal\plugins\emoticons\images\89.gif" />
+    <Content Include="personal\plugins\emoticons\images\9.gif" />
+    <Content Include="personal\plugins\emoticons\images\90.gif" />
+    <Content Include="personal\plugins\emoticons\images\91.gif" />
+    <Content Include="personal\plugins\emoticons\images\92.gif" />
+    <Content Include="personal\plugins\emoticons\images\93.gif" />
+    <Content Include="personal\plugins\emoticons\images\94.gif" />
+    <Content Include="personal\plugins\emoticons\images\95.gif" />
+    <Content Include="personal\plugins\emoticons\images\96.gif" />
+    <Content Include="personal\plugins\emoticons\images\97.gif" />
+    <Content Include="personal\plugins\emoticons\images\98.gif" />
+    <Content Include="personal\plugins\emoticons\images\99.gif" />
+    <Content Include="personal\plugins\emoticons\images\static.gif" />
+    <Content Include="personal\plugins\filemanager\filemanager.js" />
+    <Content Include="personal\plugins\filemanager\images\file-16.gif" />
+    <Content Include="personal\plugins\filemanager\images\file-64.gif" />
+    <Content Include="personal\plugins\filemanager\images\folder-16.gif" />
+    <Content Include="personal\plugins\filemanager\images\folder-64.gif" />
+    <Content Include="personal\plugins\filemanager\images\go-up.gif" />
+    <Content Include="personal\plugins\flash\flash.js" />
+    <Content Include="personal\plugins\image\image.js" />
+    <Content Include="personal\plugins\image\images\align_left.gif" />
+    <Content Include="personal\plugins\image\images\align_right.gif" />
+    <Content Include="personal\plugins\image\images\align_top.gif" />
+    <Content Include="personal\plugins\image\images\refresh.png" />
+    <Content Include="personal\plugins\insertfile\insertfile.js" />
+    <Content Include="personal\plugins\lineheight\lineheight.js" />
+    <Content Include="personal\plugins\link\link.js" />
+    <Content Include="personal\plugins\map\map.html" />
+    <Content Include="personal\plugins\map\map.js" />
+    <Content Include="personal\plugins\media\media.js" />
+    <Content Include="personal\plugins\multiimage\images\image.png" />
+    <Content Include="personal\plugins\multiimage\images\select-files-en.png" />
+    <Content Include="personal\plugins\multiimage\images\select-files-zh_CN.png" />
+    <Content Include="personal\plugins\multiimage\images\swfupload.swf" />
+    <Content Include="personal\plugins\multiimage\multiimage.js" />
+    <Content Include="personal\plugins\pagebreak\pagebreak.js" />
+    <Content Include="personal\plugins\plainpaste\plainpaste.js" />
+    <Content Include="personal\plugins\preview\preview.js" />
+    <Content Include="personal\plugins\quickformat\quickformat.js" />
+    <Content Include="personal\plugins\table\table.js" />
+    <Content Include="personal\plugins\template\html\1.html" />
+    <Content Include="personal\plugins\template\html\2.html" />
+    <Content Include="personal\plugins\template\html\3.html" />
+    <Content Include="personal\plugins\template\template.js" />
+    <Content Include="personal\plugins\wordpaste\wordpaste.js" />
+    <Content Include="personal\themes\common\anchor.gif" />
+    <Content Include="personal\themes\common\blank.gif" />
+    <Content Include="personal\themes\common\flash.gif" />
+    <Content Include="personal\themes\common\loading.gif" />
+    <Content Include="personal\themes\common\media.gif" />
+    <Content Include="personal\themes\common\rm.gif" />
+    <Content Include="personal\themes\default\background.png" />
+    <Content Include="personal\themes\default\default.css" />
+    <Content Include="personal\themes\default\default.png" />
+    <Content Include="personal\themes\qq\editor.gif" />
+    <Content Include="personal\themes\qq\qq.css" />
+    <Content Include="personal\themes\simple\simple.css" />
+    <Content Include="picture.aspx" />
+    <Content Include="picture1.aspx" />
+    <Content Include="pir-.aspx" />
+    <Content Include="product_holder.jpg" />
+    <Content Include="register.aspx" />
+    <Content Include="register.png" />
+    <Content Include="resources\images\arrow-p.png" />
+    <Content Include="resources\images\arrow.png" />
+    <Content Include="resources\images\bg.png" />
+    <Content Include="resources\images\btn.png" />
+    <Content Include="resources\images\canvas-bg.png" />
+    <Content Include="resources\images\choice.png" />
+    <Content Include="resources\images\date.png" />
+    <Content Include="resources\images\download.png" />
+    <Content Include="resources\images\favicon.ico" />
+    <Content Include="resources\images\female-gray.png" />
+    <Content Include="resources\images\female.png" />
+    <Content Include="resources\images\homebg.png" />
+    <Content Include="resources\images\icon-45.png" />
+    <Content Include="resources\images\icon-tips.png" />
+    <Content Include="resources\images\icon.png" />
+    <Content Include="resources\images\img.png" />
+    <Content Include="resources\images\loading.gif" />
+    <Content Include="resources\images\male-gray.png" />
+    <Content Include="resources\images\male.png" />
+    <Content Include="resources\images\menu-icon.png" />
+    <Content Include="resources\images\not.png" />
+    <Content Include="resources\images\sequence.gif" />
+    <Content Include="resources\images\steps.png" />
+    <Content Include="resources\images\subimg.png" />
+    <Content Include="resources\images\switch.png" />
+    <Content Include="resources\images\tbg.png" />
+    <Content Include="resources\images\unknown-gray.png" />
+    <Content Include="resources\images\unknown.png" />
+    <Content Include="resources\js\DD_belatedPNG_0.0.8a-min.js" />
+    <Content Include="resources\js\html5.js" />
+    <Content Include="resources\js\jquery-ui-1.10.3.custom.js" />
+    <Content Include="resources\js\jquery.i18n.properties-1.0.9.js" />
+    <Content Include="resources\js\jquery.js" />
+    <Content Include="resources\js\jquery.validate.js" />
+    <Content Include="resources\js\md5.js" />
+    <Content Include="resources\js\page_regist.js" />
+    <Content Include="resources\style\style.css" />
+    <Content Include="res\passport\css\login.css" />
+    <Content Include="res\passport\images\login-al.png" />
+    <Content Include="res\passport\images\login-sep.png" />
+    <Content Include="res\passport\images\tip-error.png" />
+    <Content Include="res\passport\images\tip-right.png" />
+    <Content Include="res\passport\images\toplogo.png" />
+    <Content Include="res\plugin\images\icon_Sprite.png" />
+    <Content Include="res\ui\css\base.css" />
+    <Content Include="res\ui\css\screen.css" />
+    <Content Include="res\ui\images\arrow-right.png" />
+    <Content Include="res\ui\images\border-anim-h.gif" />
+    <Content Include="res\ui\images\border-anim-v.gif" />
+    <Content Include="res\ui\images\editor.png" />
+    <Content Include="res\ui\images\icon-move.png" />
+    <Content Include="res\ui\images\loading-h.gif" />
+    <Content Include="res\ui\images\nav-1.png" />
+    <Content Include="res\ui\images\nav-dropdown-icon-hover.png" />
+    <Content Include="res\ui\images\nav-dropdown-icon.png" />
+    <Content Include="res\ui\images\phone.png" />
+    <Content Include="res\ui\images\preview-bg.png" />
+    <Content Include="res\ui\images\scroll1.png" />
+    <Content Include="res\ui\images\select.png" />
+    <Content Include="res\ui\images\tip-error.png" />
+    <Content Include="res\ui\images\tip-light.png" />
+    <Content Include="res\ui\images\tip-right.png" />
+    <Content Include="res\ui\images\type-selected.png" />
+    <Content Include="res\ui\images\ui-bg.png" />
+    <Content Include="ribbon.png" />
+    <Content Include="rss.png" />
+    <Content Include="search.png" />
+    <Content Include="slider_pattern.png" />
+    <Content Include="stars.png" />
+    <Content Include="Styles\acticledetailstyle.css" />
+    <Content Include="Styles\FoodStyle.css" />
+    <Content Include="Styles\form.css" />
+    <Content Include="Styles\fwslider.css" />
+    <Content Include="Styles\indexStyle.css" />
+    <Content Include="Styles\personalstyle.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Styles\megamenu.css" />
+    <Content Include="Styles\topicStyle.css" />
+    <Content Include="Styles\wedtern style.css" />
+    <Content Include="Styles\zuopindetailstyle.css" />
+    <Content Include="Styles\zuopinstyle.css" />
+    <Content Include="timthumb-80x80.jpg" />
+    <Content Include="topic.aspx" />
+    <Content Include="twitter.png" />
+    <Content Include="useCenter.aspx" />
+    <Content Include="useCenter1.aspx" />
+    <Content Include="useCenter2.aspx" />
+    <Content Include="video-.aspx" />
+    <Content Include="video-2.aspx" />
+    <Content Include="video.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="wishlist.png" />
+    <Content Include="wish_list.png" />
+    <Content Include="zuopin-detail.aspx" />
+    <Content Include="zuopin.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="activity1.aspx.cs">
+      <DependentUpon>activity1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="activity1.aspx.designer.cs">
+      <DependentUpon>activity1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="activity2.aspx.cs">
+      <DependentUpon>activity2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="activity2.aspx.designer.cs">
+      <DependentUpon>activity2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.aspx.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlogin.aspx.designer.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article-detail.aspx.cs">
+      <DependentUpon>article-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article-detail.aspx.designer.cs">
+      <DependentUpon>article-detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backadmin.aspx.cs">
+      <DependentUpon>backadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backadmin.aspx.designer.cs">
+      <DependentUpon>backadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="diy food.aspx.cs">
+      <DependentUpon>diy food.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="diy food.aspx.designer.cs">
+      <DependentUpon>diy food.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="activity.aspx.cs">
+      <DependentUpon>activity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="activity.aspx.designer.cs">
+      <DependentUpon>activity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index1.aspx.cs">
+      <DependentUpon>index1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index1.aspx.designer.cs">
+      <DependentUpon>index1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage.Master.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage.Master.designer.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="personal1.aspx.cs">
+      <DependentUpon>personal1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personal1.aspx.designer.cs">
+      <DependentUpon>personal1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personal2.aspx.cs">
+      <DependentUpon>personal2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personal2.aspx.designer.cs">
+      <DependentUpon>personal2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personal3.aspx.cs">
+      <DependentUpon>personal3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personal3.aspx.designer.cs">
+      <DependentUpon>personal3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="picture.aspx.cs">
+      <DependentUpon>picture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="picture.aspx.designer.cs">
+      <DependentUpon>picture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="picture1.aspx.cs">
+      <DependentUpon>picture1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="picture1.aspx.designer.cs">
+      <DependentUpon>picture1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pir-.aspx.cs">
+      <DependentUpon>pir-.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pir-.aspx.designer.cs">
+      <DependentUpon>pir-.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="topic.aspx.cs">
+      <DependentUpon>topic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="topic.aspx.designer.cs">
+      <DependentUpon>topic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="useCenter.aspx.cs">
+      <DependentUpon>useCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="useCenter.aspx.designer.cs">
+      <DependentUpon>useCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="useCenter1.aspx.cs">
+      <DependentUpon>useCenter1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="useCenter1.aspx.designer.cs">
+      <DependentUpon>useCenter1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="useCenter2.aspx.cs">
+      <DependentUpon>useCenter2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="useCenter2.aspx.designer.cs">
+      <DependentUpon>useCenter2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="video-.aspx.cs">
+      <DependentUpon>video-.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="video-.aspx.designer.cs">
+      <DependentUpon>video-.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="video-2.aspx.cs">
+      <DependentUpon>video-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="video-2.aspx.designer.cs">
+      <DependentUpon>video-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="video.aspx.cs">
+      <DependentUpon>video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="video.aspx.designer.cs">
+      <DependentUpon>video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zuopin-detail.aspx.cs">
+      <DependentUpon>zuopin-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zuopin-detail.aspx.designer.cs">
+      <DependentUpon>zuopin-detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zuopin.aspx.cs">
+      <DependentUpon>zuopin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zuopin.aspx.designer.cs">
+      <DependentUpon>zuopin.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="personal\attached\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bs_pagination-master\jquery插件库.url" />
+    <None Include="control\images\fileType\Thumbs.db" />
+    <None Include="control\images\Thumbs.db" />
+    <None Include="fonts\basic.icons.eot" />
+    <None Include="fonts\basic.icons.svg" />
+    <None Include="fonts\basic.icons.ttf" />
+    <None Include="fonts\basic.icons.woff" />
+    <None Include="fonts\icons.eot" />
+    <None Include="fonts\icons.otf" />
+    <None Include="fonts\icons.svg" />
+    <None Include="fonts\icons.ttf" />
+    <None Include="fonts\icons.woff" />
+    <Content Include="personal\asp.net\file_manager_json.ashx" />
+    <Content Include="personal\asp.net\upload_json.ashx" />
+    <None Include="personal\jsp\demo.jsp" />
+    <None Include="personal\jsp\file_manager_json.jsp" />
+    <None Include="personal\jsp\upload_json.jsp" />
+    <None Include="personal\php\demo.php" />
+    <None Include="personal\php\file_manager_json.php" />
+    <None Include="personal\php\JSON.php" />
+    <None Include="personal\php\upload_json.php" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51330</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

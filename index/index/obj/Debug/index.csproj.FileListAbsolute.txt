@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\index\index\bin\index.dll
+C:\Users\Administrator\Desktop\index\index\bin\index.pdb
+C:\Users\Administrator\Desktop\index\index\obj\Debug\index.dll
+C:\Users\Administrator\Desktop\index\index\obj\Debug\index.pdb

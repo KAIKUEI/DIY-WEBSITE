@@ -1,0 +1,52 @@
+﻿*
+{
+    padding:0;
+    margin:0;
+    }
+.banner2
+{width:988px;
+    height:492px;
+    background-image:url();
+    background-color:Red;
+    margin-bottom:46px;
+    }
+.bigword 
+{
+    color:#60b5a6;
+    font-family :微软雅黑;
+    font-size :20px;
+    
+}
+.wrapper
+{
+    width:988px;
+    margin:0 auto;
+    }
+.banner{
+    width:988px;
+    height:162px;
+    background-image:url();
+    background-color:Red;
+    margin-bottom:46px;
+    }
+ 
+ .product
+ {
+     width:232px;
+     height:164px;
+     margin-right:16px;
+     float:left;
+     margin-bottom:62px;
+     }
+ .word
+{
+    color:#60b5a6;
+    font-family :微软雅黑;
+    font-size :16px;
+     }
+ .author
+ {
+     color:#60b5a6;
+    font-family :微软雅黑;
+    font-size :14px;
+     }
